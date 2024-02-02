@@ -4,11 +4,11 @@ ID=$(id -u)
 
 VALIDATE(){
     if [ $1 -ne 0 ]
-then
-    echo "ERROR: $2.. is failed"
-    exit 1
-else 
-    echo " $2... is SUCCESS"
+    then
+        echo "ERROR: $2.. is failed"
+        exit 1
+    else 
+        echo "$2... is SUCCESS"
     fi
 }
 
