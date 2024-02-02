@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DATE= $[DATE]
+DATE= $(DATE)
 
 echo "script started and executing the value"
