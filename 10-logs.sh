@@ -8,7 +8,7 @@ LOGFILE="/tmp/$0-$TIMESTAMP.log"
 echo "script name: $0"
 
 VALIDATE(){
-    if [$1 -ne 0]
+    if [ $1 -ne 0 ]
     then
         echo " ERROR: $2 .. falied"
         exit 1
