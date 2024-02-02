@@ -8,10 +8,10 @@ LOGFILE="/tmp/$0-$TIMESTAMP.log"
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
-        echo " ERROR: $2 .. falied"
+        echo " ERROR: $2 .. failed"
         exit 1
     else  
-        echo "$2 .. SUCCES"
+        echo "$2 .. SUCCESS"
     fi
 }
 
