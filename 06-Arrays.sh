@@ -2,7 +2,7 @@
 
 FRUITS=("APPLE" "MANGO" "POMG")
 
-echo "Firts value: ${FRUITS(O)}"
+echo "Firts value: ${FRUITS(0)}"
 
 echo "Second value: ${FRUITS(1)}"
 
