@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ID=$(id-u)
+ID=$(id -u)
 R="\e[31m"
 Y="\e[32m"
 N="\e[0m"
