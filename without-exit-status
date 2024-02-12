@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e 
+
+ls -ltr
+
+touvh example.txt
+
+echo " Before wrong command"
+
+lsgggg
+
+echo "After wrong command"
+
+cd /app
+
+cd /home/centos
