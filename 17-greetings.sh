@@ -16,8 +16,15 @@ while getopts "n:w:h" opt; do
         n) NAME="$OPTARG";;
         w) WISHES="$OPTARG";;
         \?) echo "invalid options: -"$OPTARG"" >&2; USAGE; exit;;
-        :))USAGE; exit;;
-        h| USAGE; exit;;
-       
+        :)USAGE; exit;;
+        h) USAGE; exit;;
     esac
 done
+
+if [ -z"NAME" ] || [-z "WISHES" ]; then
+    echo "Error: Both -n and-w are manatory options."
+    USAGE
+    exit 1
+fi
+
+echo "Hello $NAME. $WISHES. I have been learning shell script."
