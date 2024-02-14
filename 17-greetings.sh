@@ -22,7 +22,7 @@ while getopts "n:w:h" opt; do
 done
 
 #if [ -z"$NAME" ] || [-z "WISHES" ]; then
-if [ -z "$NAME" ]; then #now wishes is optional
+if [ -z "$NAME" ]; then # now wishes is optional
     #echo "ERROR: Both -n and -w are mandatory options."
     echo "Error: -n is mandatory."
     USAGE
